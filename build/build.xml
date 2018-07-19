@@ -3,7 +3,7 @@
 
     <!-- Config -->
     <property file="build.config"/>
-    
+
     <!-- Load ant-contrib -->
     <taskdef resource="net/sf/antcontrib/antcontrib.properties">
         <classpath>
@@ -134,6 +134,12 @@
                 </copy>
                 <copy todir="temp/android/${name}-facebook-share-res">
                     <fileset dir="../android/lib/dependencies/facebook-share-4.31.0/res"/>
+                </copy>
+                <copy todir="temp/android/${name}-appcompat-v7-res">
+                    <fileset dir="../android/lib/dependencies/appcompat-v7-27.0.2/res"/>
+                </copy>
+                <copy todir="temp/android/${name}-cardview-v7-res">
+                    <fileset dir="../android/lib/dependencies/cardview-v7-27.0.2/res"/>
                 </copy>
             </else>
         </if>

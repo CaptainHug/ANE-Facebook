@@ -3,9 +3,9 @@
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
- 
+
      http://www.apache.org/licenses/LICENSE-2.0
- 
+
  Unless required by applicable law or agreed to in writing, software
  distributed under the License is distributed on an "AS IS" BASIS,
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -32,30 +32,30 @@
         <packagedDependency>core-3.3.0.jar</packagedDependency>
 
         <!--&lt;!&ndash; arch core &ndash;&gt;-->
-        <!--<packagedDependency>common-1.0.0.jar</packagedDependency>-->
+        <packagedDependency>common-1.0.0.jar</packagedDependency>
         <!--&lt;!&ndash; arch lifecycle common &ndash;&gt;-->
-        <!--<packagedDependency>common-1.0.3.jar</packagedDependency>-->
+        <packagedDependency>common-1.0.3.jar</packagedDependency>
 
         <!--&lt;!&ndash; arch lifecycle runtime &ndash;&gt;-->
-        <!--<packagedDependency>runtime-1.0.3.jar</packagedDependency>-->
+        <packagedDependency>runtime-1.0.3.jar</packagedDependency>
 
         <!--&lt;!&ndash; support &ndash;&gt;-->
-        <!--<packagedDependency>animated-vector-drawable-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>appcompat-v7-27.0.2.jar</packagedDependency>-->
+        <packagedDependency>animated-vector-drawable-27.0.2.jar</packagedDependency>
+        <packagedDependency>appcompat-v7-27.0.2.jar</packagedDependency>
 
-        <!--<packagedDependency>cardview-v7-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>customtabs-27.0.2.jar</packagedDependency>-->
+        <packagedDependency>cardview-v7-27.0.2.jar</packagedDependency>
+        <packagedDependency>customtabs-27.0.2.jar</packagedDependency>
 
-        <!--<packagedDependency>support-compat-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>support-core-ui-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>support-core-utils-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>support-fragment-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>support-media-compat-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>support-v4-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>support-annotations-27.0.2.jar</packagedDependency>-->
-        <!--<packagedDependency>support-vector-drawable-27.0.2.jar</packagedDependency>-->
+        <packagedDependency>support-compat-27.0.2.jar</packagedDependency>
+        <packagedDependency>support-core-ui-27.0.2.jar</packagedDependency>
+        <packagedDependency>support-core-utils-27.0.2.jar</packagedDependency>
+        <packagedDependency>support-fragment-27.0.2.jar</packagedDependency>
+        <packagedDependency>support-media-compat-27.0.2.jar</packagedDependency>
+        <packagedDependency>support-v4-27.0.2.jar</packagedDependency>
+        <packagedDependency>support-annotations-27.0.2.jar</packagedDependency>
+        <packagedDependency>support-vector-drawable-27.0.2.jar</packagedDependency>
 
-    </packagedDependencies> 
+    </packagedDependencies>
     <packagedResources>
         <packagedResource>
             <packageName>com.facebook.common</packageName>
@@ -73,9 +73,18 @@
             <packageName>com.facebook</packageName>
             <folderName>AirFacebook-facebook-share-res</folderName>
         </packagedResource>
+        <packagedResource>
+            <packageName>android.support.v7.appcompat</packageName>
+            <folderName>AirFacebook-appcompat-v7-res</folderName>
+        </packagedResource>
+        <packagedResource>
+            <packageName>android.support.v7.cardview</packageName>
+            <folderName>AirFacebook-cardview-v7-res</folderName>
+        </packagedResource>
+
         <!--<packagedResource>
-            <packageName>com.google.android.gms</packageName> 
-            <folderName>AirFacebook-res</folderName> 
+            <packageName>com.google.android.gms</packageName>
+            <folderName>AirFacebook-res</folderName>
         </packagedResource>-->
     </packagedResources>
 </platform>
