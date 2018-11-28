@@ -7,8 +7,8 @@ This is an [AIR Native Extension](http://www.adobe.com/devnet/air/native-extensi
 Facebook SDK Versions
 ---------
 
-* iOS: 4.19.0
-* Android: 4.19.0
+* iOS: 4.32.0
+* Android: 4.31.0
 
 Installation
 ---------
